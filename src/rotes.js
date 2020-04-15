@@ -26,10 +26,10 @@ export const routes = [
         exact: true
     },
    
-    {
+    /*{
         path: '*',
         component: () => ( <div>page not found 404</div>)
-    },
+    },*/
     
    
 ]
