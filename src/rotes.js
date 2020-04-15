@@ -9,27 +9,26 @@ import Posts from './pages/Posts';
 
 export const routes = [
     {
-        path: "/photos",
+        path: "/routing/photos",
         component: <Photos/>
     },
     {
-        path: "/posts",
+        path: "/routing/posts",
         component: <Posts/>
     },
     {
-        path: "/contacts",
+        path: "/routing/contacts",
         component: <Contacts/>
     },
     {
-        path: "/home",
+        path: "/routing/",
         component: <Home/>, 
         exact: true
     },
    
-    /*{
+    {
         path: '*',
         component: () => ( <div>page not found 404</div>)
-    },*/
-    
+    },
    
 ]
