@@ -1,0 +1,16 @@
+.home {
+    height: 90vh;
+    background: url('./images/53519498-easter-eggs-and-cute-bunny-in-green-grass-festive-decoration-happy-easter-.jpg') no-repeat  center center;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+.home__title {
+    text-align: center;
+    padding-top: 150px;
+    color: #4d0000;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 0.4em;
+}

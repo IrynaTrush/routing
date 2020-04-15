@@ -1,0 +1,9 @@
+.main {
+    background-color: #ffe6e6;
+    height: 90vh;
+}
+
+.contactsList {
+    max-width: 400px;
+    margin: 0 auto;
+}

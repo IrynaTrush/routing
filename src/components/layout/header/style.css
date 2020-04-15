@@ -1,0 +1,37 @@
+header {
+    min-height: 75px;
+    background-color: #660000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu>li {
+    margin-left: 40px;
+    font-size: 15px;
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: #ffe6e6;
+    font-size: 30px;
+}
+
+a:hover {
+    font-size:32px;
+    transition: all 0.2s;
+}
+
+a:focus {
+    color:#ff6666;
+    transition: all 0.2s;
+}

@@ -1,0 +1,7 @@
+.posts__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffe6e6;
+    height: 90vh;
+}

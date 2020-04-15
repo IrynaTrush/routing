@@ -1,0 +1,21 @@
+.photos__wrapper {
+    background-color: #ffe6e6;
+    height: 85vh;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.photo {
+    width: 480px;
+    height: 300px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #ff9999;
+    opacity: 0.9;
+}
+
+.photo:hover {
+    opacity: 1;
+    transition: all 0.2s;
+}
