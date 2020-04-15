@@ -10,16 +10,16 @@ export default class Header extends Component {
                
           <ul className="menu">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/routing/">Home</Link>
             </li>
             <li>
-              <Link to="/posts">Posts</Link>
+              <Link to="/routing/posts">Posts</Link>
             </li>
             <li>
-              <Link to="/photos">Photos</Link>
+              <Link to="/routing/photos">Photos</Link>
             </li>
             <li>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/routing/contacts">Contacts</Link>
             </li>
           </ul>
         
