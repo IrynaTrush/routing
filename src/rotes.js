@@ -21,7 +21,7 @@ export const routes = [
         component: <Contacts/>
     },
     {
-        path: "/",
+        path: "/home",
         component: <Home/>, 
         exact: true
     },
