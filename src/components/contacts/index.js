@@ -66,6 +66,7 @@ render() {
         lastName={i.lastName}
         phone={i.phone}
         gender={i.gender}
+        key={i + Math.random()}
         />
     )
 
